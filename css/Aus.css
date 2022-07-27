@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../Montserrat/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Extra-Bold";
+  src: url("../Montserrat/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../Montserrat/Montserrat-SemiBold.ttf");
+}
+
+body {
+  color: #151515;
+}
+
+.Img {
+  width: 100px;
+}
+
+.nav-item {
+  padding: 0px 20px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Medium";
+}
+
+.order-btn {
+  background-color: #A0D4D2 !important;
+  color: white !important;
+  border-radius: 50px !important;
+}
+
+.Sentences {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Since {
+  font-size: 19px;
+  line-height: 28px;
+  font-family: "Montserrat-Regular";
+
+}
+
+.Best-Quality {
+  font-size: 36px;
+  line-height: 43.2px;
+  font-family: "Montserrat-Bold";
+}
+
+.Info {
+  font-size: 15px;
+  line-height: 22px;
+  font-family: "Montserrat-Regular";
+}
+
+.product-section {
+  margin-top: 40px;
+}
+
+.Team-Header {
+  font-size: 36px;
+  line-height: 43.2px;
+  font-family: "Montserrat-SemiBold";
+}
+
+.Wrapper {
+  position: relative;
+}
+
+.banner_text {
+  position: absolute;
+  width: 65%;
+  height: 24%;
+  bottom: 0px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat-Regular";
+  font-size: 18px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+}
+.Present {
+  color: black !important;
+  font-family: "Montserrat-Medium";
+  font-size: 16px;
+}
+
+@media (min-width: 573px) And (max-width: 763px) {
+  .banner_text {
+    padding-top: 60px !important;
+  }
+
+}
+
+@media (min-width: 764px) And (max-width: 991px) {
+  .banner_text {
+    left: 120px !important;
+    height: 20%;
+    padding-top: 65px !important;
+  }
+
+}
+
+@media (min-width: 992px) And (max-width: 1999px) {
+  .banner_text {
+    left: 55px !important;
+    padding-top: 30px !important;
+  }
+
+}
+
+@media (min-width: 1200px) And (max-width: 1399px) {
+  .banner_text {
+    left: 65px !important;
+    padding-top: 35px !important;
+  }
+
+}
+
+@media (min-width: 1400px) And (max-width: 1622px) {
+  .banner_text {
+    left: 75px !important; 
+    padding-top: 45px !important;
+  }
+
+}

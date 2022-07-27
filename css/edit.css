@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../Montserrat/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Extra-Bold";
+  src: url("../Montserrat/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../Montserrat/Montserrat-SemiBold.ttf");
+}
+
+.Img {
+  width: 100px;
+}
+
+.nav-item {
+  padding: 0px 20px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Medium";
+}
+
+.order-btn {
+  background-color: #A0D4D2 !important;
+  color: white !important;
+  border-radius: 50px !important;
+}
+
+.Wrapper,
+.Bag {
+  position: relative;
+}
+
+.banner_text {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  bottom: 0px;
+  text-align: center;
+  font-family: "Montserrat-Bold";
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.Present {
+  color: black !important;
+  font-family: "Montserrat-Medium";
+  font-size: 16px;
+}
+
+ .Home_text {
+  width: 65%;
+  top: 30px;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  font-family: "Montserrat-Bold";
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h2 {
+  font-family: "Montserrat-SemiBold";
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.product-section {
+  padding-top: 70px !important;
+}
+
+.product-tab {
+  margin-bottom: 50px !important;
+}
+
+.nav-items {
+  padding: 0 10px;
+}
+
+.product-tab ul li a {
+  color: #151515;
+}
+
+.product-tab ul li a:hover {
+  color: #151515;
+  font-family: "Montserrat-Bold";
+}
+
+.card-title {
+  font-family: "Montserrat-Medium";
+  font-size: 18px;
+  line-height: 31px;
+}
+
+span {
+  padding: 0 10px;
+  font-family: "Montserrat-Medium";
+  line-height: 22px;
+  font-size: 16px;
+  color: #e33;
+}
+
+del {
+  font-family: "Montserrat-Regular";
+  line-height: 22px;
+  font-size: 16px;
+  color: #929292
+} 
+
+.Section2 {
+  margin-top: 17px;
+}
+
+@media (min-width: 992px) And (max-width: 1200px) { 
+  .card-title7,
+  .card-title8,
+  .card-title4 {
+    height: 31px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 8px !important;
+  }
+
+} 
